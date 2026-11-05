@@ -13,8 +13,9 @@ I'm a Computer Science student interested in **AI/ML, Computer Vision, and Deep 
 ## Open Source Contributions
 
 - **MONAI:** [PR #9176](https://github.com/Project-MONAI/MONAI/pull/9176) — Made nvImageCodec reader setup lazy, reducing unnecessary warnings during MONAI imports.
-- Currently contributing to and investigating issues in open-source AI/ML projects.
-
+- **MONAI:** [PR #9248](https://github.com/Project-MONAI/MONAI/pull/9248) — Fixed compiled lazy resampling with `align_corners=True`, improving consistency with the native PyTorch implementation.
+- Actively contributing to and investigating issues in open-source AI/ML projects.
+  
 ## Projects
 
 ### LandScope — Land Cover Intelligence
