@@ -12,8 +12,10 @@ I'm a Computer Science student interested in **AI/ML, Computer Vision, and Deep 
 
 ## Open Source Contributions
 
-- **MONAI:** [PR #9176](https://github.com/Project-MONAI/MONAI/pull/9176) — Made nvImageCodec reader setup lazy, reducing unnecessary warnings during MONAI imports.
-- **MONAI:** [PR #9248](https://github.com/Project-MONAI/MONAI/pull/9248) — Fixed compiled lazy resampling with `align_corners=True`, improving consistency with the native PyTorch implementation.
+- **MONAI:** [PR #9260](https://github.com/Project-MONAI/MONAI/pull/9260): Fixed setuptools packaging warnings (SPDX `license` expression, `license-files` moved to `[project]`, `include-package-data` disabled for the C++/CUDA sources) and made the source distribution include the native `monai/csrc` sources. Verified with clean-clone sdist and wheel builds.
+- **Kornia:** [PR #6699](https://github.com/kornia/kornia/pull/6699): Added a test pinning the Windows / PyTorch < 2.6 gate of the float64 attention workaround, documented when that workaround retires, and renamed a TorchScript test so it is no longer skipped by default.
+- **MONAI:** [PR #9176](https://github.com/Project-MONAI/MONAI/pull/9176): Made nvImageCodec reader setup lazy, reducing unnecessary warnings during MONAI imports.
+- **MONAI:** [PR #9248](https://github.com/Project-MONAI/MONAI/pull/9248): Fixed compiled lazy resampling with `align_corners=True`, improving consistency with the native PyTorch implementation.
 - Actively contributing to and investigating issues in open-source AI/ML projects.
   
 ## Projects
