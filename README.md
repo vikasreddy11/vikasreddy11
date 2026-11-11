@@ -7,7 +7,7 @@ I'm a Computer Science student interested in **AI/ML, Computer Vision, and Deep 
 - Computer Science student at Matrusri Engineering College
 - Interested in Computer Vision, Medical Imaging, and Deep Learning
 - Working with Python, PyTorch, and machine learning tools
-- Open-source contributor to [MONAI](https://github.com/Project-MONAI/MONAI)
+- Open-source contributor 
 - Exploring software engineering, model development, and AI applications
 
 ## Open Source Contributions
